@@ -8,15 +8,10 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
-
-        <!-- Styles -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.22.0/apexcharts.min.css" integrity="sha512-H6KANMpZQKsK9c09UqdcQv02JTiZ/hMVwxkcbDLrp125CR884wwEdnWDm+Yuo6tihuC/cizLYWAjMZi0xAfGig==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Scripts -->
-        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.1/dist/alpine.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.22.0/apexcharts.min.js" integrity="sha512-4wZv8Ez08ZFd8692f3xggP4qy07M422jaolvHEu5Mq1EL8i+ANd1QhCCXyQipwaP7qxJvyvNhe7CfPylB1gb2Q==" crossorigin="anonymous"></script>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">
