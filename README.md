@@ -1,4 +1,4 @@
-# Laravel 9 現代化互動式圖表
+# Laravel 10 現代化互動式圖表
 
 引入 asantibanez 的 livewire-charts 套件來擴增使用 ApexCharts.js 建構現代化互動式圖表，提供更多資料視覺化，以便在視覺上傳達定量資訊。
 
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/BY7wl76.png)
+![](https://i.imgur.com/nbEnkoH.png)
 > 可以幫助用戶分析和推理資料，使複雜的資料更容易理解和使用

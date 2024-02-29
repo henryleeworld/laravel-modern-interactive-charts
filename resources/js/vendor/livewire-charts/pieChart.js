@@ -73,6 +73,14 @@ const pieChart = () => {
                 ],
 
                 legend: component.get('pieChartModel.legend') || {},
+
+                tooltip: {
+                    y: {
+                        formatter: function(value, series) {
+                            return data[series.dataPointIndex].extras.tooltip || value;
+                        }
+                    }
+                },
             };
 
             const colors = component.get('pieChartModel.colors');
