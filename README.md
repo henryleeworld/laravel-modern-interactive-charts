@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/nbEnkoH.png)
+![](https://i.imgur.com/AQRVKpR.png)
 > 可以幫助用戶分析和推理資料，使複雜的資料更容易理解和使用

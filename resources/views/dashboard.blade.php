@@ -8,13 +8,17 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <div class="h-60 w-80 mx-auto">
+                <div style="height: 24rem;">
                     <livewire:livewire-column-chart
+                        key="{{ $columnChartModel->reactiveKey() }}"
                         :column-chart-model="$columnChartModel"
                     />
                 </div>
             </div>
         </div>
     </div>
+    @section('scripts')
+    @parent
+    @livewireChartsScripts
+    @endsection
 </x-app-layout>
-@livewireChartsScripts
