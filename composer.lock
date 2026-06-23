@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4802dc651d2a14df64d660a04efe99d",
+    "content-hash": "c1310e63ad814673017e072c9e2eaddd",
     "packages": [
         {
             "name": "arukompas/livewire-charts",
